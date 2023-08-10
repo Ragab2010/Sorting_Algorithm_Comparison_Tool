@@ -36,6 +36,7 @@ void UserConsole::run() {
 
     SortingTimeManager timeManager;
 
+    //choose the algorithms
     displaySortingAlgorithms();
     std::vector<int> chosenAlgorithms = chooseAlgorithms();
 

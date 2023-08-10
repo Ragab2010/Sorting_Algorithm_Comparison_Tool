@@ -15,10 +15,10 @@ private:
     void displaySortingAlgorithms();
     std::vector<int> chooseAlgorithms();
 
-    int min_;
-    int max_;
-    int number_;
-    int number_of_sets_;
+    int min_{1};
+    int max_{99};
+    int number_{30};
+    int number_of_sets_{1};
     std::vector<Sort*> sortingAlgorithms_;
 };
 
