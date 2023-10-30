@@ -15,7 +15,6 @@ private:
     struct AlgorithmResult {
         std::string name;
         long long duration; // in nanoseconds
-
         AlgorithmResult(const std::string& n, long long dur) : name(n), duration(dur) {}
     };
 
